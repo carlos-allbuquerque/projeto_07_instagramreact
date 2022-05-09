@@ -1,10 +1,15 @@
 import reactDom from "react-dom";
 import Menu from "./components/Menu";
+import Content from "./components/Content";
 
 
 function App() {
     return (
-        <Menu />
+        <div>
+            <Menu />
+            <Content /> 
+        </div>
+
     );
 }
 
