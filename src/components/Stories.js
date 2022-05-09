@@ -14,7 +14,7 @@ function Story(props) {
 
 export default function Stories() {
 
-    let stories = [
+    const stories = [
         {
             image: "./Arquivos/9gag 1.svg",
             name: "9gag"    

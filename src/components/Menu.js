@@ -27,9 +27,9 @@ function MenuPequeno() {
     return (
         <div class="menu-pequeno branco">
             <div class="conteudo-menu">
-                <div class="icone"><ion-icon name="logo-instagram"></ion-icon></div>
+                <Icone name="logo-instagram" />
                 <div class="logo"><img src="./Arquivos/logo.png" alt=""/></div>
-                <div class="icone"><ion-icon name="paper-plane-outline"></ion-icon></div>
+                <Icone name="paper-plane-outline" />
             </div>
         </div>
     );
