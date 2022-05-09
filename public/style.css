@@ -1,0 +1,345 @@
+body {
+    background-color: #fafafa;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+    position: relative;
+}
+.conteudo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .menu {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #dbdbdb;
+    border-width: 1px;
+    position: static;
+    margin-bottom: 30px;
+  }
+  .menu-pequeno {
+    display: none;
+  }
+  .barra-inferior {
+    display: none;
+  }
+  .conteudo-menu {
+    width: 935px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-esquerda {
+    display: flex;
+    align-items: center;
+  }
+  .icone {
+    font-size: 21px;
+  }
+  .logo {
+    font-size: 21px;
+  }
+  .barra-pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 215px;
+    height: 28px;
+    border: solid;
+    border-width: 1.5px;
+    border-color: #dbdbdb;
+    box-shadow: 1px #dbdbdb;
+    border-width: 1px;
+    background-color: #fafafa;
+    font-size: 12px;
+    color: #979797;
+    font-weight: 400;
+    border-radius: 3px;
+  }
+  .menu-direita {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    justify-content: space-between;
+  }
+  
+  .stories {
+    height: 118px;
+    width: 614px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 0px 0x;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    border: solid;
+    border-width: 1.5px;
+    border-color: #dbdbdb;
+    box-shadow: 1px #dbdbdb;
+    position: relative;
+  }
+  .botao img{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      right: 5px;
+      width: 26px;
+      height: 26px;
+      border-radius: 30px;
+      bottom: 45px;
+      
+  }
+  .story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3.3px;
+  }
+  .story-cima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 66px;
+    height: 66px;
+    background-image: url(/Arquivos/stories_background.jpg);
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 5px;
+    padding-left: 0.3px;
+    padding-bottom: 0.3px;
+  }
+  .nome-story {
+    font-size: 12px;
+    font-weight: 500;
+    width: 78px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .story-foto {
+    width: 56px;
+    height: 56px;
+    margin: 0px;
+    border: 0px;
+  }
+  .coluna-posts {
+    width: 614px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .post {
+    width: 614px;
+    margin-bottom: 64px;
+    border-radius: 3px;
+    border: solid;
+    border-width: 1.5px;
+    border-color: #dbdbdb;
+    box-shadow: 1px #dbdbdb;
+  }
+  .topo-post {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: space-between;
+  }
+  .topo-esquerda {
+    display: flex;
+    align-items: center;
+  }
+  .foto-perfil {
+    margin-right: 10px;
+  }
+  .imagem {
+    width: 614px;
+    height: 614px;
+  }
+  .imagem img {
+    width: 100%;
+  }
+  .baixo-post {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .baixo-esquerda {
+    width: 90px;
+    justify-content: space-between;
+  }
+  .baixo-topo {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    margin-bottom: 10px;
+  }
+  .comentarios {
+    display: flex;
+    width: 400px;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+  }
+  span {
+    font-weight: bold;
+  }
+  .foto-comentarios {
+    margin-right: 5px;
+  }
+  .sidebar {
+    width: 293px;
+    margin-left: 24px;
+    position: sticky;
+    top: 0;
+  }
+  .sidebar-topo {
+    width: 180px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  .foto-topo {
+    margin-right: 10px;
+  }
+  .nome-sidebar {
+    font-weight: 500;
+    font-size: 14px;
+    color: #262626;
+    margin-bottom: 5px;
+  }
+  .catana {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8e8e8e;
+  }
+  .sugest-topo {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .sugest {
+    font-size: 12px;
+    color: #8e8e8e;
+    font-weight: 500;
+  }
+  .ver {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .sugestao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .sugest-direita {
+    display: flex;
+  }
+  .seguir {
+    font-size: 12px;
+    font-weight: 500;
+    color: #139ef2;
+  }
+  .bottom-nome {
+    font-size: 12px;
+    color: #8e8e8e;
+    font-weight: 400;
+  }
+  .sidebar-fim {
+    color: #c7c7c7;
+  }
+  .adicional {
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: 400;
+  }
+  
+  .branco {
+    background-color: #ffff;
+  }
+  .borda {
+    width: 1px;
+    border-right: solid #dbdbdb;
+    height: 22px;
+    border-width: 1px;
+    margin: 10px 10px 18px 10px;
+  }
+  .margem {
+    margin-bottom: 20px
+  }
+  
+  @media (max-width: 935px) {
+    .sidebar {
+      display: none;
+    }
+    .conteudo {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 614px) {
+    .conteudo {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .menu {
+      display: none;
+    }
+    .icone {
+      font-size: 25px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .menu-pequeno {
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    .stories {
+      background-color: #fafafa;
+      border: none;
+    }
+    .story-cima {
+        border-radius: 66px;
+    }
+    .botao {
+        display: none;
+    }
+    .post {
+      width: 100%;
+      border-right: none;
+      border-left: none;
+    }
+    .barra-inferior {
+      display: flex;
+      position: fixed;
+      width: 100%;
+      height: 54px;
+      bottom: 0;
+      z-index: 1;
+    }
+    .conteudo-menu {
+      width: 100%;
+    }
+  }
