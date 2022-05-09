@@ -1,21 +1,17 @@
+import Icone from "./Icone";
+
 function MenuDireita() {
     return (
         <div class="menu-direita">
-            <Icone class="icone" name="paper-plane-outline" />
-            <Icone class="icone" name="compass-outline" />
-            <Icone class="icone" name="heart-outline" />
-            <Icone class="icone" name="person-outline" />
+            <Icone name="paper-plane-outline" />
+            <Icone name="compass-outline" />
+            <Icone name="heart-outline" />
+            <Icone name="person-outline" />
         </div>
     );
 }
 
-function Icone(props) {
-    return (
-        <div class={props.class}>
-            <ion-icon name={props.name}></ion-icon>
-        </div>
-    );
-}
+
 
 function MenuEsquerda() {
     return (
