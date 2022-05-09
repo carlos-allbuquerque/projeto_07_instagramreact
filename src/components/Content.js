@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar";
 
 export default function Content() {
     return (
-        <div class="conteudo branco">
+        <div class="conteudo">
             <div class="esquerda">
                 <Stories />
                 <Posts />
